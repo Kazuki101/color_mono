@@ -28,3 +28,5 @@ mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなど
 sub.pyの12行目のmono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)の125の部分を0~255の間で任意に変化させることで白と黒の判定基準を自由に変更することができます。
 ## 動画のリンク
 https://youtu.be/yxHQgNMbwm8
+## ライセンス
+
