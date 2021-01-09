@@ -29,4 +29,4 @@ sub.pyの12行目のmono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)の12
 ## 動画のリンク
 https://youtu.be/yxHQgNMbwm8
 ## ライセンス
-
+[MIT Licence](https://github.com/Kazuki101/color_mono/blob/main/LICENSE)
