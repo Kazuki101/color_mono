@@ -11,6 +11,8 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
 ## 実行手順
 ### uvc_cameraパッケージのインストール
     $sudo apt-get install ros-melodic-uvc-camera
+### OpenCVのインストール
+    $pip install opencv-python
 ### cv_bridgeのインストール
     $sudo apt-get install ros-melodic-cv-bridge
 ### 今回作成したパッケージのインストール
@@ -23,6 +25,6 @@ mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなど
 
     $roslaunch color_mono mono.launch
 ## 二値化処理の閾値について
-sub.pyの12行目のmono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)の125を0~255の間で任意に変化させることで白と黒の判定基準を自由に変更することができます。
+sub.pyの12行目のmono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)の125の部分を0~255の間で任意に変化させることで白と黒の判定基準を自由に変更することができます。
 ## 動画のリンク
 https://youtu.be/yxHQgNMbwm8
