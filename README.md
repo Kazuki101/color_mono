@@ -12,7 +12,7 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
 ### uvc_cameraパッケージのインストール
     $sudo apt-get install ros-melodic-uvc-camera
 ### cv_bridgeのインストール
-    $
+    $sudo apt-get install ros-melodic-cv-bridge
 ### 今回作成したパッケージのインストール
     $cd catkin_ws/src
     $git clone https://github.com/Kazuki101/color_mono.git
